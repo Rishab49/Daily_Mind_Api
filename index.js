@@ -5,23 +5,11 @@ const cors = require("cors");
 // Creating express app
 const app = express();
 
-
-const allowlist=["http://localhost:5173","https://deep-mind.vercel.app"]
-
 //cors options
 const corsOptions = {
-origin:function (req, callback) {
-  var corsOptions;
-  console.log('request header',req);
-  if (allowlist.indexOf(req.header('Origin')) !== -1) {
-    console.log("if case");
-    corsOptions = { origin: true } // reflect (enable) the requested origin in the CORS response
-  } else {
-    console.log("else case");
-    corsOptions = { origin: false } // disable CORS for this request
-  }
-  callback(null, corsOptions) // callback expects two parameters: error and options
-}
+origin:["http://localhost:5173","https://deep-mind.vercel.app"],
+methods:["GET","POST"],
+optionsSuccessStatus: 200
 }
 
 
