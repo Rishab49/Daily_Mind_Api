@@ -44,6 +44,7 @@ app.post("/", async (req, res) => {
 
   try {
     let data = await createRoutine(tasksString);
+    res.setHeader('Access-Control-Allow-Origin', '*');
     res.json(data.data.choices);
   } catch (e) {
     console.log(e);
