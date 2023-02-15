@@ -12,7 +12,7 @@ const allowlist=["http://localhost:5173","https://deep-mind.vercel.app"]
 const corsOptions = {
 origin:function (req, callback) {
   var corsOptions;
-  console.log('request header',req.header)
+  console.log('request header',req);
   if (allowlist.indexOf(req.header('Origin')) !== -1) {
     console.log("if case");
     corsOptions = { origin: true } // reflect (enable) the requested origin in the CORS response
