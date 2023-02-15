@@ -76,23 +76,6 @@ AI: Here's a sample routine that incorporates all of the activities you mentione
 11:00 PM - Get ready for bed and practice a relaxing activity such as meditation or yoga.
 11:30 PM - Get a good night's sleep of 8 hours.
 This routine provides a balance of studying, work, leisure activities, and self-care. Feel free to adjust the schedule to better fit your personal needs and schedule.
-Human: Prepare a routine of me for a day, in which I want to study for exam, play, go to market, meet with friends, watch TV 
-AI: Here's a sample routine for a day where you want to study for an exam, play, go to the market, meet with friends, and watch TV:
-7:00 AM - Wake up and start the day with a nutritious breakfast.
-8:00 AM - Study for 2 hours to prepare for the exam.
-10:00 AM - Take a 30-minute break to play or exercise.
-10:30 AM - Study for another 2 hours.
-12:30 PM - Have lunch and take a short break.
-1:00 PM - Go to the market to buy necessary items.
-2:00 PM - Meet with friends for a social activity.
-4:00 PM - Take another 30-minute break to play or exercise.
-4:30 PM - Study for 2 hours.
-6:30 PM - Cook or order dinner.
-7:30 PM - Enjoy dinner with your family or friends.
-8:30 PM - Watch TV or a movie for relaxation.
-10:30 PM - Get ready for bed and practice a relaxing activity such as meditation or yoga.
-11:00 PM - Get a good night's sleep of 8 hours.
-This routine balances your time between studying and leisure activities, allowing you to stay focused and avoid burnout. Make sure to adjust the schedule as needed to better fit your personal needs and schedule.
 Human : Prepare a routine of me for a day, in which I want to ${tasksString}
 AI:`,
     temperature: 0.1,
