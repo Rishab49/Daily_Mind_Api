@@ -14,8 +14,9 @@ methods:"POST"
 
 
 // middleware to parse the incoming request and for cors
-app.use(express.json());
 app.use(cors(corsOptions));
+app.use(express.json());
+
 
 
 
