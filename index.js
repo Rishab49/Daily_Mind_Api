@@ -9,7 +9,7 @@ const app = express();
 //cors options
 const corsOptions = {
 origin:["http://localhost:5173","https://deep-mind.vercel.app"],
-methods:"POST"
+methods:"GET","POST"
 }
 
 
